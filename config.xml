@@ -1,12 +1,21 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.panini.hub" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>PaniniHub</name>
-    <description>
-        Hello World sample application that responds to the deviceready event.
-    </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
-    </author>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.panini.hub"
+    versionCode = "13"
+    version     = "1.8.5" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>The Panini Hub</name>
+
+  <description>
+      The Official loyalty app from Panini Hub of Springfield, Mo!.
+  </description>
+
+  <author href="http://rpwalsh.com" email="support@rpwalsh.com">
+      Ryan Walsh
+  </author>
     <content src="index.html" />
     <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
