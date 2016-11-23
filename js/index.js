@@ -77,8 +77,15 @@ var app = {
 
         push.on('notification', function(data) {
             console.log('notification event');
+                console.log(data.message);
+                console.log(data.title);
+                console.log(data.count);
+                console.log(data.sound);
+                console.log(data.image);
+                console.log(data.additionalData);
             navigator.notification.alert(
-                data.message,         // message
+
+                 data.message,         // message
                 null,                 // callback
                 data.title,           // title
                 'Ok'                  // buttonName
@@ -86,3 +93,8 @@ var app = {
        });
     }
 };
+PushNotification.hasPermission(function(data) {
+    if (data.isEnabled) {
+        console.log('isEnabled');
+    }
+});
