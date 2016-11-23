@@ -213,14 +213,12 @@
 
             </div>
  <script>
-  function fuckery(){   FCMPlugin.getToken(
-  function(token){
-    alert(token);
-  },
-  function(err){
-    console.log('error retrieving token: ' + err);
-  }
-)
+  function fuckery(){  push.subscribe('all', function() {
+    console.log('success');
+}, function(e) {
+    console.log('error:');
+    console.log(e);
+});
 }
  </script> 
     </div>
