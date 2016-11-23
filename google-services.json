@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "605130401654",
+    "firebase_url": "https://paninihub-8f070.firebaseio.com",
+    "project_id": "paninihub-8f070",
+    "storage_bucket": "paninihub-8f070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605130401654:android:802e112838561bf5",
+        "android_client_info": {
+          "package_name": "com.panini.hub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605130401654-tftk8gbj9cp98kg52r8iau8r3gj20uns.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2V85fk1PYrlUBWy5C1b2spX8UHzQea6w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
